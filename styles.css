@@ -1,0 +1,38 @@
+:root {
+    --canvas-height: 600px;
+    --canvas-width: 600px;
+}
+#canvas-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 600px;
+}
+
+canvas{
+    background-color: #102025;
+    position: absolute;
+    top: calc(var(--canvas-height)/4);
+    left: 100%;
+}
+
+button{
+    color: white;
+    background-color: #102025;
+    padding: 20px 10px 20px 10px;
+    border-radius: 10px;
+    border-color: #102025;
+    box-shadow: none;
+    border:none;
+}
+
+button:hover{
+    background-color: #266266;
+}
+
+button:active{
+    background-color: #1b2f49;
+    transform: translateY(4px);
+}
